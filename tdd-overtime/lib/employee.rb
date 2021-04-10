@@ -1,12 +1,17 @@
 class Employee
-  attr_reader :monthly, :salary
+  
 
-  def initialize(options = {})
-    @monthly = options[:monthly]
+  def initialize(ans)
+    @ans = ans
   end
 
-  def monthly?
-    monthly == true
+  def is_monthly?
+    @ans
   end
+
+  def ans
+    @ans
+  end
+
 end
 

@@ -1,8 +1,8 @@
 require 'salary'
 require 'employee'
-require 'timecop'
+# require 'timecop'
 
-RSpec.describe Bike do
+RSpec.describe Salary do
   let(:salary { Salary.new(employee) }
 
   context '月薪加班費' do
